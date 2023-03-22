@@ -1,6 +1,7 @@
 # Eleventy
 _site
 .idea
+.DS_Store
 
 # Logs
 logs
