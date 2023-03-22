@@ -1,0 +1,11 @@
+---
+title: "Home Page"
+layout: layout.liquid
+---
+
+{% for post in collections.post %}
+<div>
+    <h2>{{ post.data.title }}</h2>
+    <a href="{{ post.url }}">Read More...</a>
+</div>
+{% endfor %}
